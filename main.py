@@ -10,7 +10,7 @@ import time
 import google.generativeai as genai
 
 
-GEMINI_API_KEY = "AIzaSyB5O6e07Qo8hmbz12qeM6gM4FpX74GiKM0"
+GEMINI_API_KEY = "Gemini API KEY"
 genai.configure(api_key=GEMINI_API_KEY)
 
 app = FastAPI()
